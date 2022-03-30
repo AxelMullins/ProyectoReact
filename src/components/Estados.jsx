@@ -8,7 +8,7 @@ const Estados = () => {
   return (
     <>
     <h2>Forma uno</h2>
-        { data 
+        { data
         ? <button onClick={estado} style={{ color: "white", background: "green", padding: "10px", width: "200px"}}>Es verdadero</button>
         : <button onClick={estado} style={{ color: "white", background: "red", padding: "10px", width: "200px"}}>Es falso</button>
       }        

@@ -1,11 +1,21 @@
+import { Container, Navbar } from "react-bootstrap";
 
 const Header = () => {
   return (
-    <nav>
-        <h1>Soy el header</h1>
-        <p>list items</p>
-    </nav>
-  )
-}
+    <Navbar bg="light" className="shadow">
+      <Container>
+        <Navbar.Brand href="#home">
+          <img
+            src="https://ar.academianumen.com/wp-content/uploads/2020/08/cropped-LOGO-NUMEN-academy-01-200x56.png"
+            width="auto"
+            height="30"
+            className="d-inline-block align-top"
+            alt="React Bootstrap logo"
+          />
+        </Navbar.Brand>
+      </Container>
+    </Navbar>
+  );
+};
 
-export default Header
+export default Header;
